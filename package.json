@@ -1,0 +1,23 @@
+{
+  "name": "vudash-app",
+  "version": "1.0.0",
+  "description": "Desktop / Raspberry Pi app for vudash",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -mwl"
+  },
+  "repository": "git@github.com:vudash/vudash-app.git",
+  "keywords": [
+    "vudash",
+    "dashboard",
+    "raspberry pi",
+    "pi"
+  ],
+  "author": "Antony Jones",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "1.6.2",
+    "electron-builder": "^19.30.2"
+  }
+}
